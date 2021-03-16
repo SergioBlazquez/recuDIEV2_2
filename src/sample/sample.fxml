@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label layoutX="223.0" layoutY="73.0" text="DNI/NIE" textFill="#2b57dd" />
+      <TextArea fx:id="txt1" layoutX="307.0" layoutY="74.0" onMouseExited="#contenidoTxt1" prefHeight="15.0" prefWidth="75.0" />
+      <Label layoutX="228.0" layoutY="134.0" text="Código" textFill="#2b57dd" />
+      <TextArea fx:id="txt2" layoutX="307.0" layoutY="135.0" onMouseExited="#contenidoTxt2" prefHeight="15.0" prefWidth="75.0" />
+      <Label layoutX="245.0" layoutY="192.0" text="PIN" textFill="#2b57dd" />
+      <TextArea fx:id="txt3" layoutX="307.0" layoutY="193.0" onMouseClicked="#contenidoTxt3" onMouseExited="#contenidoTxt3" prefHeight="15.0" prefWidth="75.0" />
+      <Button layoutX="212.0" layoutY="281.0" mnemonicParsing="false" style="-fx-background-color: #FFFFFF; -fx-border-color: #2b57dd;" text="Volver" textFill="#2b57dd" />
+      <Button fx:id="but1" disable="true" layoutX="307.0" layoutY="281.0" mnemonicParsing="false" style="-fx-background-color: #2b57dd;" text="Acceder" textFill="WHITE" />
+   </children>
+</AnchorPane>
